@@ -38,5 +38,3 @@ window.addEventListener("touchend", e => handleOnUp(e.touches[0]));
 window.addEventListener("mousemove", e => handleOnMove(e));
 window.addEventListener("touchmove", e => handleOnMove(e.touches[0]));
 
-// Add the scroll event listener
-window.addEventListener('wheel', handleOnScroll);
