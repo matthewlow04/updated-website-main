@@ -53,8 +53,7 @@ const handleOnScroll = e => {
     list.dataset.prevPercentage = nextPercentage;
   };
 
-  window.addEventListener("wheel", handleOnScroll);
-  
+window.addEventListener("wheel", handleOnScroll); 
 
 window.addEventListener("mousedown", e => handleOnDown(e));
 window.addEventListener("touchstart", e => handleOnDown(e.touches[0]));
