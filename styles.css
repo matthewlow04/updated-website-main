@@ -1,12 +1,12 @@
 
 body{
-    background-color: black;
+    background-color: #2e3549;
     font-family: 'Akshar';
 }
 .home-body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: #2e3549;
     margin: 0rem;
     overflow: hidden;
     font-family: 'Akshar';
@@ -63,12 +63,10 @@ nav ul {
 }
 
 .navbar-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    color: #fff; /* White text color */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+    position: absolute; 
 }
 
 nav ul li {
@@ -149,15 +147,6 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.project-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #744d04ca;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
 .row{
     display: flex;
     height: 100%;
@@ -165,8 +154,6 @@ nav ul li a {
     margin: 100px;
     justify-content: center;
     animation: slideIn 1s ease-out;
-
-
 }
 .col{
     flex: 1;
@@ -191,16 +178,33 @@ nav ul li a {
     background-size: cover;
     background-image: url(images/grad.png);
     object-position: center;
-
     
 } 
 .about-body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    height: 100vh;
 }
 
 h2{
     color:#fff
 }
 
+h3{
+    color:#fff
+}
+
+.main-content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    color: #fff;
+    font-size: 36px;
+    margin: 20px 0;
+    text-align: center;
+}
